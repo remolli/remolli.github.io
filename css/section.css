@@ -1,0 +1,52 @@
+section {
+    border-top: 2px solid black;
+    margin-top: 80px;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 30px;
+    height: auto;
+    animation: iniciarSection 1.5s;
+
+    transition: 1s;
+}
+section:hover{
+    padding: 40px;
+}
+
+section h2 {
+    color: white;
+    font-size: clamp(1em, 4vw, 1.8em);
+    font-family: 'Inconsolata', monospace;
+    font-style: italic;
+    border-width: 3px;
+    border-style: solid;
+    border-image: linear-gradient(to right, #e29a65, #e85f8c) 0 0 1 0;
+    text-align: center;
+    text-shadow: 3px 3px black;
+    margin: 50px;
+    margin-top: 0;
+    padding: 10px;
+}
+section p {
+    line-height: clamp(0.5em, 5vw, 2em);
+}
+
+.hover-bordas-laterais{
+    border-right: 1px solid rgba(0, 0, 0, 0);
+    border-left: 1px solid rgba(0, 0, 0, 0);
+
+    transition: 1s;
+}
+.hover-bordas-laterais:hover {
+    border-right: 1px solid white;
+    border-left: 1px solid white;
+    
+    padding: 10px;
+}
+
+#contato{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

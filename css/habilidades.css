@@ -1,0 +1,39 @@
+.habilidades {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+}
+
+.habilidade {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+    border: 0px solid rgba(0, 0, 0, 0);
+}
+.habilidade:hover{
+    border-bottom: 1px solid white;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.08);
+
+    letter-spacing: 2px;
+    padding: 3px;
+}
+
+.habilidades img {
+    border: 1px solid white;
+    width: clamp(1em, 8vw, 4.5em);
+    height: clamp(1em, 8vw, 4.5em);
+    margin-bottom: 10px;
+    border-radius: 35%;
+    background-color: rgba(0, 0, 0, 0.25);
+}
+
+.habilidades span {
+    color: white;
+    font-size: clamp(0.2em, 2vw, 1.25em);
+    font-family: 'Raleway', sans-serif;
+    text-shadow: 1px 1px black;
+}
