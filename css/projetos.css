@@ -1,0 +1,11 @@
+.projeto{
+    min-width:170px;
+    min-height:85px;
+}
+.projeto a{
+    transition: 0.2s;
+}
+.projeto a:hover{
+    padding:5px;
+    border-bottom: 1px solid white;
+}
