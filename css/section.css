@@ -9,9 +9,6 @@ section {
 
     transition: 1s;
 }
-section:hover{
-    padding: 40px;
-}
 
 section h2 {
     color: white;
