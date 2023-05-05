@@ -20,9 +20,9 @@ nav {
     background: -webkit-linear-gradient(white, #dddddd, #000000);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    animation: logoAnimation 3s;
+    animation: logoAnimation 2s;
     animation-iteration-count: infinite;
-    transition: 1s;
+    transition: 0.5s;
 }
 .logo:hover{
     font-size: 70px;
@@ -45,7 +45,7 @@ nav {
     border-width: 1px;
     border-style: solid;
     border-image: linear-gradient(to right, black, black) 0 0 1 0;
-    transition: 1s;
+    transition: 0.2s;
     animation: iniciarLinks 1.5s
 }
 .link:hover{

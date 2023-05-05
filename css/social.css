@@ -11,7 +11,7 @@
     height: clamp(0.5em, 8vw, 4em);
     width: clamp(0.5em, 8vw, 4em);
     background-color: white;
-    transition: 0.5s;
+    transition: 0.2s;
 }
 .social-container a:hover{
     height: clamp(0.6em, 9vw, 4.5em);
@@ -22,14 +22,14 @@
     background-image: url(../imagens/linkedin.png);
     border-radius: 20px;
     border: 2px solid white;
-    animation: social 2s;
+    animation: social 1s;
     animation-iteration-count: infinite;
 }
 .github {
     background-image: url(../imagens/github.png);
     border-radius: 100%;
     border: 2px solid white;
-    animation: social 2s;
+    animation: social 1s;
     animation-iteration-count: infinite;
 }
 
