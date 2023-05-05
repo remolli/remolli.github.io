@@ -1,7 +1,11 @@
 nav {
+    position:fixed;
+    top: 0;
+    z-index: 999;
+    
     border-bottom: 4px solid black;
     background-image: linear-gradient(to right, #0c0458, #070340);
-
+    
     display: flex;
     align-items: center;
 
