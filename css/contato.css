@@ -4,8 +4,6 @@
     flex-direction: column;
     justify-content: center;
     align-items:center;
-    height: clamp(23.5em, 55vw, 37em);
-    width: clamp(23.5em, 55vw, 37em);
 }
 
 .conjunto {
