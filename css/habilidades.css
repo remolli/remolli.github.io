@@ -1,9 +1,9 @@
-.habilidades {
+/* .habilidades {
     display: flex;
     flex-direction: row;
     justify-content:space-between;
     align-items: center;
-}
+} */
 
 .habilidade {
     display: flex;
@@ -36,4 +36,5 @@
     font-size: clamp(0.2em, 2vw, 1.25em);
     font-family: 'Raleway', sans-serif;
     text-shadow: 1px 1px black;
+    text-align: center;
 }
