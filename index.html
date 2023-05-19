@@ -11,13 +11,20 @@
     <title>Evandro's</title>
 </head>
 <body>
-    <nav>
-        <h2 class="logo">E</h2>
-        <div class="links">
-            <a class="link" href="#sobre">Sobre</a>
-            <a class="link" href="#projetos">Projetos</a>
-            <a class="link" href="#habilidades">Habilidades</a>
-            <a class="link" href="#contato">Contato</a>
+    <nav class="navbar navbar-expand-sm" id="nav">
+        <div class="container-fluid">
+            <h2 class="logo navbar-brand">E</h2>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="links collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="link nav-link text-light" href="#sobre">Sobre</a>
+                    <a class="link nav-link text-light" href="#projetos">Projetos</a>
+                    <a class="link nav-link text-light" href="#habilidades">Habilidades</a>
+                    <a class="link nav-link text-light" href="#contato">Contato</a>
+                </div>
+            </div>
         </div>
     </nav>
     <header class="header">
@@ -150,6 +157,7 @@
             <input class="submitBtn" type="submit" value="Enviar">
         </form>
     </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
     <script src="scripts/script.js"></script>
 </body>
 </html>
