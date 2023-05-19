@@ -40,7 +40,7 @@
 
 @keyframes iniciarNav {
     from{height: 0; opacity: 0;}
-    to{height: clamp(5em, 15vw, 6em); opacity: 1;}
+    to{height: clamp(5.5em, 15vw, 6em); opacity: 1;}
 }
 
 @keyframes iniciarLinks{
