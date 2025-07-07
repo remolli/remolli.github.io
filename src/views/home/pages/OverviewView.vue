@@ -23,8 +23,8 @@
                 <!-- Buttons -->
                 <div class="row m-0 w-100 justify-content-center">
                     <div class="d-flex justify-content-center">
-                        <Button class="m-2" icon="pi pi-github"/>
-                        <Button class="m-2" icon="pi pi-linkedin"/>
+                        <Button class="m-2" icon="pi pi-github" @click="openGithubLink" />
+                        <Button class="m-2" icon="pi pi-linkedin" @click="openLinkedinLink" />
                         <Button id="calendlyInlineWidget" class="m-2 fs-5" label="Agende uma reunião" style="max-width: max-content;"
                         onclick="Calendly.initPopupWidget({url: 'https://calendly.com/remolli?hide_landing_page_details=1&hide_gdpr_banner=1'}); "/>
                         <!-- <a href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/remolli?hide_landing_page_details=1&hide_gdpr_banner=1'});return false;">Agende uma reunião</a> -->
@@ -56,6 +56,14 @@ function handleResize() {isMobile.value = window.innerWidth < 720 }
 onMounted(() => {
     window.addEventListener('resize', handleResize)
 } )
+
+const openGithubLink = () => {
+  window.open('https://github.com/remolli', '_blank', 'noopener,noreferrer');
+};
+
+const openLinkedinLink = () => {
+  window.open('https://www.linkedin.com/in/evandro-remolli/', '_blank', 'noopener,noreferrer');
+};
 </script>
 
 <style>
