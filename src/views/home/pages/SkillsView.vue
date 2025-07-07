@@ -19,7 +19,7 @@
                     <SkillsItem
                     icon="https://www.vectorlogo.zone/logos/vuejs/vuejs-icon.svg"
                     title="Vue.js"
-                    :progress="90"
+                    :progress="95"
                     specification="BootstrapVue, PrimeVue, Vuex, Vue-Router, Axios e integração com APIs REST."
                     ></SkillsItem>
 
@@ -29,6 +29,13 @@
                     :progress="70"
                     specification="Desenvolvimento mobile com Provider, MobX, Dio e Material Design."
                     ></SkillsItem>
+
+                    <SkillsItem
+                    icon="https://reactnative.dev/img/header_logo.svg"
+                    title="React Native"
+                    :progress="55"
+                    specification="Componentes básicos, navegação (React Navigation), estado com Hooks, consumo de APIs REST e estilização com StyleSheet."
+                    />
 
                     <SkillsItem
                     icon="https://www.vectorlogo.zone/logos/w3_html5/w3_html5-icon.svg"
@@ -62,21 +69,21 @@
                     <SkillsItem
                     icon="https://www.vectorlogo.zone/logos/dotnet/dotnet-tile.svg"
                     title=".NET"
-                    :progress="60"
+                    :progress="70"
                     specification="APIs RESTful, C#, Entity Framework Core e autenticação com JWT."
                     />
 
                     <SkillsItem
                     icon="https://www.vectorlogo.zone/logos/springio/springio-icon.svg"
                     title="Java com Spring"
-                    :progress="80"
+                    :progress="90"
                     specification="Spring Boot, JPA, construção de APIs REST e gerenciamento de dependências com Maven."
                     />
 
                     <SkillsItem
                     icon="https://www.vectorlogo.zone/logos/python/python-icon.svg"
                     title="Python"
-                    :progress="80"
+                    :progress="75"
                     specification="FlaskAPI, SQLAlchemy, documentação com Swagger, autenticação e PostgreSQL."
                     />
                     
@@ -91,14 +98,14 @@
                     <SkillsItem
                     icon="https://www.vectorlogo.zone/logos/postgresql/postgresql-icon.svg"
                     title="PostgreSQL"
-                    :progress="60"
+                    :progress="70"
                     specification="Criação de esquemas, procedures, constraints, relacionamento entre tabelas."
                     />
 
                     <SkillsItem
                     icon="https://cdn-icons-png.flaticon.com/512/29/29195.png"
                     title="SQL Queries"
-                    :progress="60"
+                    :progress="70"
                     specification="Consultas otimizadas, joins, agregações, subqueries e manipulação de dados."
                     />
                 </div>

@@ -1,6 +1,6 @@
 <template>
     <div class="fullscreen centralize my-3 py-5">
-        <div class="row m-0 row-cols-1 row-cols-sm-2" :class="isMobile ? '' : 'px-5'">
+        <div class="row m-0 row-cols-1 row-cols-sm-2" :class="isMobile ? 'pt-4' : 'px-5'">
             <div class="col p-0 align-items-center justify-content-center" :style="{
                 width: isMobile ? '100%' : '70%',
             }">

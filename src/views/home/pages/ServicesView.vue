@@ -18,7 +18,7 @@
                     </div>
                     <div class="row m-0">
                         <p class="lead fs-6 text-start border-start border-4" style="font-weight: 400;">
-                            <strong>Destaque:</strong> Layouts personalizados, performance otimizada e foco em acessibilidade. </p>
+                            <strong>✨ Diferenciais:</strong> Layouts personalizados, performance otimizada e foco em acessibilidade. </p>
                     </div>
                 </div>
                 <div class="col my-2 py-3">
@@ -32,7 +32,7 @@
                     </div>
                     <div class="row m-0">
                         <p class="lead fs-6 text-start border-start border-4" style="font-weight: 400;">
-                            <strong>Destaque:</strong> Arquitetura limpa, autenticação JWT, versionamento e performance. </p>
+                            <strong>✨ Diferenciais:</strong> Arquitetura limpa, autenticação JWT, versionamento e performance. </p>
                     </div>
                 </div>
                 <div class="col my-2 py-3">
@@ -46,7 +46,7 @@
                     </div>
                     <div class="row m-0">
                         <p class="lead fs-6 text-start border-start border-4" style="font-weight: 400;">
-                            <strong>Destaque:</strong> Normalização, índices, procedures, queries otimizadas e replicação. </p>
+                            <strong>✨ Diferenciais:</strong> Normalização, índices, procedures, queries otimizadas e replicação. </p>
                     </div>
                 </div>
             </div>

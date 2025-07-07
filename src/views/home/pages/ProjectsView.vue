@@ -18,8 +18,12 @@
                             {{ project.title }} </p>
                     </div>
                     <div class="row">
-                        <p class="lead fs-6 text-start" style="font-weight: 400">
+                        <p class="lead fs-6 text-start mb-0" style="font-weight: 400">
                             {{ project.description }} </p>
+                    </div>
+                    <div class="row">
+                        <a class="lead fs-6 text-start mb-2" style="font-weight: 400" :href="project.link" target="_blank">
+                            {{ project.link }} </a>
                     </div>
                     <div v-if="project.tecnologias" class="row m-0">
                         <p class="lead fs-6 text-start border-start border-4" style="font-weight: 400;">
@@ -62,11 +66,11 @@ function getRandomIndex() {
 
 const projects = [
     {
-        title: 'Projeto em desenvolvimento',
-        description: 'Este projeto está em construção e será atualizado em breve.',
-        tecnologias: '',
-        image: blankList[getRandomIndex()],
-        link: ''
+        title: 'SearchMovie',
+        description: 'Aplicativo desenvolvido para pesquisa de filmes utilizando a API pública do OMDB.',
+        tecnologias: 'ASP.NET, .NET, C#, Integração com API externa',
+        image: require('@/assets/projects/SearchMovie-desktop.png'),
+        link: 'https://searchmovie.azurewebsites.net'
     },
     {
         title: 'Projeto em desenvolvimento',
