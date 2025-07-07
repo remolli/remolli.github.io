@@ -6,7 +6,7 @@
                 {{ title }} </p> 
             </div>
         <div class="col">
-            <ProgressBar :value="progress"> {{ progress ? '' : '' }} </ProgressBar>
+            <ProgressBar :title="'Nível de experiência em '+title" :value="progress"> {{ progress ? '' : '' }} </ProgressBar>
         </div>
         <p v-if="specification" class="lead m-0 mx-4 fs-6 text-start border-start border-4" style="font-weight: 400;">
             <strong>Especificações técnicas:</strong> {{ specification }} </p>

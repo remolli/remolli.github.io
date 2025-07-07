@@ -21,7 +21,7 @@
                         <p class="lead fs-6 text-start mb-0" style="font-weight: 400">
                             {{ project.description }} </p>
                     </div>
-                    <div class="row">
+                    <div v-if="project.link" class="row">
                         <a class="lead fs-6 text-start mb-2" style="font-weight: 400" :href="project.link" target="_blank">
                             {{ project.link }} </a>
                     </div>

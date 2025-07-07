@@ -23,8 +23,8 @@
                 <!-- Buttons -->
                 <div class="row m-0 w-100 justify-content-center">
                     <div class="d-flex justify-content-center">
-                        <Button class="m-2" icon="pi pi-github" @click="openGithubLink" />
-                        <Button class="m-2" icon="pi pi-linkedin" @click="openLinkedinLink" />
+                        <Button class="m-2" icon="pi pi-github" @click="openGithubLink" title="Meu GitHub" />
+                        <Button class="m-2" icon="pi pi-linkedin" @click="openLinkedinLink" title="Meu LinkedIn" />
                         <Button id="calendlyInlineWidget" class="m-2 fs-5" label="Agende uma reunião" style="max-width: max-content;"
                         onclick="Calendly.initPopupWidget({url: 'https://calendly.com/remolli?hide_landing_page_details=1&hide_gdpr_banner=1'}); "/>
                         <!-- <a href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/remolli?hide_landing_page_details=1&hide_gdpr_banner=1'});return false;">Agende uma reunião</a> -->

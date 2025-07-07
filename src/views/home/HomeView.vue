@@ -2,15 +2,9 @@
   <div class="centralize-col dark-theme">
     <div class="row row-menu-bar" style="position: fixed; top:0px; width:100vw; display: flex; z-index: 2;">
         <div class="p-0" style="width:max-content;">
-            <Menubar :model="items" >
+            <Menubar :model="items">
                 <template #item="{ item, props, hasSubmenu }">
-                    <router-link v-if="item.route" v-slot="{ href, navigate }" :to="item.route" custom>
-                        <a v-ripple :href="href" v-bind="props.action" @click="navigate">
-                            <span :class="item.icon" />
-                            <span>{{ item.label }}</span>
-                        </a>
-                    </router-link>
-                    <a v-else v-ripple :href="item.url" :target="item.target" v-bind="props.action">
+                    <a v-ripple :href="item.url || '#'" :target="item.target" v-bind="props.action">
                         <span :class="item.icon" />
                         <span>{{ item.label }}</span>
                         <span v-if="hasSubmenu" class="pi pi-fw pi-angle-down" />
