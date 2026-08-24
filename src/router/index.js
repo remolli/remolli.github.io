@@ -6,6 +6,11 @@ const routes = [
     name: 'home',
     component: () => import('@/views/home/HomeView.vue')
   },
+  {
+    path: '/privacidade/foco-no-treino',
+    name: 'privacy-foco-no-treino',
+    component: () => import('@/views/privacy/PrivacyPolicyView.vue')
+  },
 //   {
 //     path: '/about',
 //     name: 'about',
